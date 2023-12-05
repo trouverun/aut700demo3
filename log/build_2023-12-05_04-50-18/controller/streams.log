@@ -1,0 +1,38 @@
+[0.706s] Invoking command in '/home/aleksi/turtlebot3_ws/src/controller': PYTHONPATH=/home/aleksi/turtlebot3_ws/build/controller/prefix_override:/home/aleksi/turtlebot3_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /home/aleksi/turtlebot3_ws/build/controller/build install --record /home/aleksi/turtlebot3_ws/build/controller/install.log --single-version-externally-managed
+[0.887s] running egg_info
+[0.887s] creating ../../build/controller/controller.egg-info
+[0.887s] writing ../../build/controller/controller.egg-info/PKG-INFO
+[0.887s] writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt
+[0.887s] writing entry points to ../../build/controller/controller.egg-info/entry_points.txt
+[0.888s] writing requirements to ../../build/controller/controller.egg-info/requires.txt
+[0.888s] writing top-level names to ../../build/controller/controller.egg-info/top_level.txt
+[0.888s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[0.889s] reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[0.889s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[0.889s] running build
+[0.889s] running build_py
+[0.889s] creating /home/aleksi/turtlebot3_ws/build/controller/build
+[0.890s] creating /home/aleksi/turtlebot3_ws/build/controller/build/lib
+[0.890s] creating /home/aleksi/turtlebot3_ws/build/controller/build/lib/controller
+[0.890s] copying controller/__init__.py -> /home/aleksi/turtlebot3_ws/build/controller/build/lib/controller
+[0.890s] copying controller/main.py -> /home/aleksi/turtlebot3_ws/build/controller/build/lib/controller
+[0.890s] running install
+[0.890s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.890s]   warnings.warn(
+[0.890s] running install_lib
+[0.891s] creating /home/aleksi/turtlebot3_ws/install/controller/lib/python3.10/site-packages/controller
+[0.891s] copying /home/aleksi/turtlebot3_ws/build/controller/build/lib/controller/__init__.py -> /home/aleksi/turtlebot3_ws/install/controller/lib/python3.10/site-packages/controller
+[0.891s] copying /home/aleksi/turtlebot3_ws/build/controller/build/lib/controller/main.py -> /home/aleksi/turtlebot3_ws/install/controller/lib/python3.10/site-packages/controller
+[0.891s] byte-compiling /home/aleksi/turtlebot3_ws/install/controller/lib/python3.10/site-packages/controller/__init__.py to __init__.cpython-310.pyc
+[0.891s] byte-compiling /home/aleksi/turtlebot3_ws/install/controller/lib/python3.10/site-packages/controller/main.py to main.cpython-310.pyc
+[0.892s] running install_data
+[0.893s] creating /home/aleksi/turtlebot3_ws/install/controller/share/ament_index
+[0.893s] creating /home/aleksi/turtlebot3_ws/install/controller/share/ament_index/resource_index
+[0.893s] creating /home/aleksi/turtlebot3_ws/install/controller/share/ament_index/resource_index/packages
+[0.893s] copying resource/controller -> /home/aleksi/turtlebot3_ws/install/controller/share/ament_index/resource_index/packages
+[0.893s] copying package.xml -> /home/aleksi/turtlebot3_ws/install/controller/share/controller
+[0.893s] running install_egg_info
+[0.894s] Copying ../../build/controller/controller.egg-info to /home/aleksi/turtlebot3_ws/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info
+[0.895s] running install_scripts
+[0.910s] writing list of installed files to '/home/aleksi/turtlebot3_ws/build/controller/install.log'
+[0.926s] Invoked command in '/home/aleksi/turtlebot3_ws/src/controller' returned '0': PYTHONPATH=/home/aleksi/turtlebot3_ws/build/controller/prefix_override:/home/aleksi/turtlebot3_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /home/aleksi/turtlebot3_ws/build/controller/build install --record /home/aleksi/turtlebot3_ws/build/controller/install.log --single-version-externally-managed

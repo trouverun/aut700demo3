@@ -1,0 +1,318 @@
+[0.154s] Invoking command in '/home/aleksi/turtlebot3_ws/build/control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aleksi/turtlebot3_ws/install/controller:/opt/ros/humble /usr/bin/cmake --build /home/aleksi/turtlebot3_ws/build/control_interfaces -- -j24 -l24
+[0.192s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.311s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.335s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.337s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.343s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.351s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.410s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.448s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.750s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.107s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.259s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.280s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.298s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.298s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.299s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.338s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.345s] -- Added test 'lint_cmake' to check CMake code style
+[1.346s] -- Added test 'xmllint' to check XML markup files
+[1.348s] -- Configuring done
+[1.386s] -- Generating done
+[1.389s] -- Build files have been written to: /home/aleksi/turtlebot3_ws/build/control_interfaces
+[1.417s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.431s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.440s] [  4%] Built target ament_cmake_python_copy_control_interfaces
+[1.633s] running egg_info
+[1.634s] writing control_interfaces.egg-info/PKG-INFO
+[1.634s] writing dependency_links to control_interfaces.egg-info/dependency_links.txt
+[1.634s] writing top-level names to control_interfaces.egg-info/top_level.txt
+[1.636s] reading manifest file 'control_interfaces.egg-info/SOURCES.txt'
+[1.636s] writing manifest file 'control_interfaces.egg-info/SOURCES.txt'
+[1.658s] [  4%] Built target ament_cmake_python_build_control_interfaces_egg
+[1.859s] [35m[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_generator_c[0m
+[1.872s] [  6%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/action/detail/follow_path__functions.c.o[0m
+[1.873s] [  8%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/srv/detail/set_pose__functions.c.o[0m
+[1.873s] [ 10%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/srv/detail/set_position__functions.c.o[0m
+[1.878s] [ 10%] Built target control_interfaces__cpp
+[1.889s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.889s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.889s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.976s] [ 19%] [32m[1mLinking C shared library libcontrol_interfaces__rosidl_generator_c.so[0m
+[2.014s] [ 19%] Built target control_interfaces__rosidl_generator_c
+[2.025s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.025s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.026s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.165s] [35m[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_cpp[0m
+[2.184s] [ 27%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_interfaces/srv/set_position__type_support.cpp.o[0m
+[2.184s] [ 31%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_interfaces/srv/set_pose__type_support.cpp.o[0m
+[2.185s] [ 31%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_interfaces/action/follow_path__type_support.cpp.o[0m
+[2.222s] [35m[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.238s] [ 34%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_interfaces/srv/detail/set_position__type_support.cpp.o[0m
+[2.239s] [ 36%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_interfaces/action/detail/follow_path__type_support.cpp.o[0m
+[2.239s] [ 38%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_interfaces/srv/detail/set_pose__type_support.cpp.o[0m
+[2.310s] [35m[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_c[0m
+[2.323s] [ 42%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_interfaces/action/follow_path__type_support.cpp.o[0m
+[2.323s] [ 42%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_interfaces/srv/set_pose__type_support.cpp.o[0m
+[2.324s] [ 44%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_interfaces/srv/set_position__type_support.cpp.o[0m
+[2.372s] [ 46%] [32m[1mLinking CXX shared library libcontrol_interfaces__rosidl_typesupport_c.so[0m
+[2.402s] [35m[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_introspection_c[0m
+[2.402s] [35m[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.416s] [ 48%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/set_position__type_support.c.o[0m
+[2.416s] [ 53%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/action/detail/follow_path__type_support.c.o[0m
+[2.416s] [ 53%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/set_pose__type_support.c.o[0m
+[2.417s] [ 53%] Built target control_interfaces__rosidl_typesupport_c
+[2.422s] [ 55%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/set_position__type_support.cpp.o[0m
+[2.424s] [ 59%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/set_pose__type_support.cpp.o[0m
+[2.424s] [ 59%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/action/detail/dds_fastrtps/follow_path__type_support.cpp.o[0m
+[2.429s] [35m[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.448s] [ 61%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_interfaces/srv/detail/set_pose__type_support_c.cpp.o[0m
+[2.448s] [ 63%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_interfaces/srv/detail/set_position__type_support_c.cpp.o[0m
+[2.451s] [ 65%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_interfaces/action/detail/follow_path__type_support_c.cpp.o[0m
+[2.472s] [ 68%] [32m[1mLinking C shared library libcontrol_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.507s] [ 68%] Built target control_interfaces__rosidl_typesupport_introspection_c
+[2.552s] [ 70%] [32m[1mLinking CXX shared library libcontrol_interfaces__rosidl_typesupport_cpp.so[0m
+[2.594s] [ 70%] Built target control_interfaces__rosidl_typesupport_cpp
+[2.725s] [ 72%] [32m[1mLinking CXX shared library libcontrol_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.767s] [ 74%] [32m[1mLinking CXX shared library libcontrol_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.795s] [ 74%] Built target control_interfaces__rosidl_typesupport_introspection_cpp
+[2.834s] [ 74%] Built target control_interfaces__rosidl_typesupport_fastrtps_c
+[2.880s] [ 76%] [32m[1mLinking CXX shared library libcontrol_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.955s] [ 76%] Built target control_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.979s] [ 76%] Built target control_interfaces
+[3.000s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.762s] [ 78%] Built target control_interfaces__py
+[3.776s] [35m[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_generator_py[0m
+[3.792s] [ 80%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/control_interfaces/srv/_set_position_s.c.o[0m
+[3.792s] [ 82%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/control_interfaces/action/_follow_path_s.c.o[0m
+[3.792s] [ 85%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/control_interfaces/srv/_set_pose_s.c.o[0m
+[3.915s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/control_interfaces/libcontrol_interfaces__rosidl_generator_py.so[0m
+[3.960s] [ 87%] Built target control_interfaces__rosidl_generator_py
+[3.970s] [35m[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.973s] [35m[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[3.974s] [35m[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_c__pyext[0m
+[3.986s] [ 89%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.987s] [ 91%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.990s] [ 93%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.107s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/control_interfaces/control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.107s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/control_interfaces/control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.114s] [100%] [32m[1mLinking C shared library rosidl_generator_py/control_interfaces/control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.152s] [100%] Built target control_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.152s] [100%] Built target control_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.158s] [100%] Built target control_interfaces__rosidl_typesupport_c__pyext
+[4.173s] Invoked command in '/home/aleksi/turtlebot3_ws/build/control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aleksi/turtlebot3_ws/install/controller:/opt/ros/humble /usr/bin/cmake --build /home/aleksi/turtlebot3_ws/build/control_interfaces -- -j24 -l24
+[4.280s] Invoking command in '/home/aleksi/turtlebot3_ws/build/control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aleksi/turtlebot3_ws/install/controller:/opt/ros/humble /usr/bin/cmake --install /home/aleksi/turtlebot3_ws/build/control_interfaces
+[4.288s] -- Install configuration: ""
+[4.288s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/ament_index/resource_index/rosidl_interfaces/control_interfaces
+[4.288s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces
+[4.288s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/msg
+[4.288s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.288s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[4.288s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[4.288s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_position__struct.h
+[4.288s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_pose__type_support.h
+[4.288s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_goal__type_support.h
+[4.288s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_pose__functions.c
+[4.289s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_goal__struct.h
+[4.289s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_pose__functions.h
+[4.289s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_goal__functions.h
+[4.289s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_position__type_support.h
+[4.289s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_goal__functions.c
+[4.289s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_pose__struct.h
+[4.289s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_position__functions.c
+[4.289s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_position__functions.h
+[4.290s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/set_goal.h
+[4.290s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/set_position.h
+[4.290s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/set_pose.h
+[4.290s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action
+[4.290s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail
+[4.290s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail/follow_path__struct.h
+[4.290s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail/follow_path__functions.h
+[4.290s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail/follow_path__type_support.h
+[4.290s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail/follow_path__functions.c
+[4.291s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/follow_path.h
+[4.291s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/environment/library_path.sh
+[4.291s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/environment/library_path.dsv
+[4.291s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/lib/libcontrol_interfaces__rosidl_generator_c.so
+[4.291s] -- Set runtime path of "/home/aleksi/turtlebot3_ws/install/control_interfaces/lib/libcontrol_interfaces__rosidl_generator_c.so" to ""
+[4.292s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces
+[4.292s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/msg
+[4.292s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.292s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[4.292s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[4.292s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+[4.292s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_goal__rosidl_typesupport_fastrtps_c.h
+[4.292s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_position__rosidl_typesupport_fastrtps_c.h
+[4.292s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action
+[4.292s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail
+[4.292s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail/follow_path__rosidl_typesupport_fastrtps_c.h
+[4.292s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.293s] -- Set runtime path of "/home/aleksi/turtlebot3_ws/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.293s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces
+[4.293s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[4.293s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[4.293s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_pose__traits.hpp
+[4.293s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_pose__struct.hpp
+[4.293s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_position__traits.hpp
+[4.293s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_goal__builder.hpp
+[4.293s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_position__builder.hpp
+[4.293s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_goal__traits.hpp
+[4.294s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_pose__builder.hpp
+[4.294s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_goal__struct.hpp
+[4.294s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_position__struct.hpp
+[4.294s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/set_goal.hpp
+[4.294s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/set_pose.hpp
+[4.294s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/set_position.hpp
+[4.294s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action
+[4.294s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail
+[4.294s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail/follow_path__traits.hpp
+[4.294s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail/follow_path__builder.hpp
+[4.294s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail/follow_path__struct.hpp
+[4.295s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/follow_path.hpp
+[4.295s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces
+[4.295s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/msg
+[4.295s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.295s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[4.295s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[4.295s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[4.295s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[4.295s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[4.295s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/dds_fastrtps
+[4.295s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action
+[4.295s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail
+[4.295s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail/follow_path__rosidl_typesupport_fastrtps_cpp.hpp
+[4.296s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail/dds_fastrtps
+[4.296s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.296s] -- Set runtime path of "/home/aleksi/turtlebot3_ws/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.296s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces
+[4.296s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/msg
+[4.296s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.296s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[4.296s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[4.297s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_goal__type_support.c
+[4.297s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_pose__type_support.c
+[4.297s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+[4.297s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_goal__rosidl_typesupport_introspection_c.h
+[4.297s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_position__rosidl_typesupport_introspection_c.h
+[4.297s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_position__type_support.c
+[4.297s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action
+[4.297s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail
+[4.297s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail/follow_path__type_support.c
+[4.297s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail/follow_path__rosidl_typesupport_introspection_c.h
+[4.297s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_introspection_c.so
+[4.298s] -- Set runtime path of "/home/aleksi/turtlebot3_ws/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.298s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_c.so
+[4.298s] -- Set runtime path of "/home/aleksi/turtlebot3_ws/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_c.so" to ""
+[4.298s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces
+[4.298s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[4.299s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[4.299s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_position__rosidl_typesupport_introspection_cpp.hpp
+[4.299s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_position__type_support.cpp
+[4.299s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_pose__type_support.cpp
+[4.299s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_goal__type_support.cpp
+[4.299s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+[4.299s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/set_goal__rosidl_typesupport_introspection_cpp.hpp
+[4.299s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action
+[4.299s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail
+[4.299s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail/follow_path__type_support.cpp
+[4.299s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/include/control_interfaces/control_interfaces/action/detail/follow_path__rosidl_typesupport_introspection_cpp.hpp
+[4.300s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.300s] -- Set runtime path of "/home/aleksi/turtlebot3_ws/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.300s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_cpp.so
+[4.301s] -- Set runtime path of "/home/aleksi/turtlebot3_ws/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.301s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/environment/pythonpath.sh
+[4.301s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/environment/pythonpath.dsv
+[4.301s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces-0.0.0-py3.10.egg-info
+[4.301s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.301s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.301s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.301s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.301s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces
+[4.301s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.302s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/__init__.py
+[4.302s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.302s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/libcontrol_interfaces__rosidl_generator_py.so
+[4.302s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.302s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.303s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv
+[4.303s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_set_position.py
+[4.303s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/__init__.py
+[4.303s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_set_position_s.c
+[4.303s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_set_goal_s.c
+[4.303s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_set_pose.py
+[4.303s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_set_goal.py
+[4.303s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_set_pose_s.c
+[4.303s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/action
+[4.304s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/action/__init__.py
+[4.304s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/action/_follow_path_s.c
+[4.304s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/action/_follow_path.py
+[4.304s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.304s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_c.c
+[4.337s] Listing '/home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces'...
+[4.337s] Compiling '/home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/__init__.py'...
+[4.337s] Listing '/home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/action'...
+[4.337s] Compiling '/home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/action/__init__.py'...
+[4.337s] Compiling '/home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/action/_follow_path.py'...
+[4.337s] Listing '/home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv'...
+[4.338s] Compiling '/home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/__init__.py'...
+[4.338s] Compiling '/home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_set_pose.py'...
+[4.338s] Compiling '/home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_set_position.py'...
+[4.341s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.341s] -- Set runtime path of "/home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.342s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.342s] -- Set runtime path of "/home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.342s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.342s] -- Set runtime path of "/home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.343s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/lib/libcontrol_interfaces__rosidl_generator_py.so
+[4.343s] -- Set runtime path of "/home/aleksi/turtlebot3_ws/install/control_interfaces/lib/libcontrol_interfaces__rosidl_generator_py.so" to ""
+[4.343s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/srv/SetPosition.idl
+[4.343s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/srv/SetPose.idl
+[4.343s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/action/FollowPath.idl
+[4.343s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/srv/SetPosition.srv
+[4.343s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/srv/SetPosition_Request.msg
+[4.344s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/srv/SetPosition_Response.msg
+[4.344s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/srv/SetPose.srv
+[4.344s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/srv/SetPose_Request.msg
+[4.344s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/srv/SetPose_Response.msg
+[4.344s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/action/FollowPath.action
+[4.344s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/ament_index/resource_index/package_run_dependencies/control_interfaces
+[4.344s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/ament_index/resource_index/parent_prefix_path/control_interfaces
+[4.344s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/environment/ament_prefix_path.sh
+[4.345s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/environment/ament_prefix_path.dsv
+[4.345s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/environment/path.sh
+[4.345s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/environment/path.dsv
+[4.345s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/local_setup.bash
+[4.345s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/local_setup.sh
+[4.345s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/local_setup.zsh
+[4.345s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/local_setup.dsv
+[4.345s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/package.dsv
+[4.346s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/ament_index/resource_index/packages/control_interfaces
+[4.346s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_cExport.cmake
+[4.346s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.346s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.346s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.346s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_cppExport.cmake
+[4.346s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.346s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.346s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.347s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.347s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_cExport.cmake
+[4.347s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.347s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.347s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.347s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_cppExport.cmake
+[4.347s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.347s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_pyExport.cmake
+[4.347s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.347s] -- Installing: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.347s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.348s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.348s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.348s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.348s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.348s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.348s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/control_interfacesConfig.cmake
+[4.348s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/cmake/control_interfacesConfig-version.cmake
+[4.349s] -- Up-to-date: /home/aleksi/turtlebot3_ws/install/control_interfaces/share/control_interfaces/package.xml
+[4.349s] Invoked command in '/home/aleksi/turtlebot3_ws/build/control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aleksi/turtlebot3_ws/install/controller:/opt/ros/humble /usr/bin/cmake --install /home/aleksi/turtlebot3_ws/build/control_interfaces

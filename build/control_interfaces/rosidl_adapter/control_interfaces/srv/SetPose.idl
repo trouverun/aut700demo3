@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from control_interfaces/srv/SetPose.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "std_msgs/msg/Bool.idl"
+
+module control_interfaces {
+  module srv {
+    struct SetPose_Request {
+      geometry_msgs::msg::Pose pose;
+    };
+    struct SetPose_Response {
+      std_msgs::msg::Bool success;
+    };
+  };
+};

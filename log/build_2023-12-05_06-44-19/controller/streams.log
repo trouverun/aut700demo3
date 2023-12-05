@@ -1,0 +1,31 @@
+[0.584s] Invoking command in '/home/aleksi/turtlebot3_ws/src/controller': AMENT_PREFIX_PATH=/home/aleksi/turtlebot3_ws/install/control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aleksi/turtlebot3_ws/install/control_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/aleksi/turtlebot3_ws/install/control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aleksi/turtlebot3_ws/build/controller/prefix_override:/home/aleksi/turtlebot3_ws/install/controller/lib/python3.10/site-packages:/home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /home/aleksi/turtlebot3_ws/build/controller/build install --record /home/aleksi/turtlebot3_ws/build/controller/install.log --single-version-externally-managed
+[0.767s] running egg_info
+[0.767s] writing ../../build/controller/controller.egg-info/PKG-INFO
+[0.767s] writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt
+[0.767s] writing entry points to ../../build/controller/controller.egg-info/entry_points.txt
+[0.767s] writing requirements to ../../build/controller/controller.egg-info/requires.txt
+[0.768s] writing top-level names to ../../build/controller/controller.egg-info/top_level.txt
+[0.769s] reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[0.769s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[0.770s] running build
+[0.770s] running build_py
+[0.770s] copying controller/server.py -> /home/aleksi/turtlebot3_ws/build/controller/build/lib/controller
+[0.770s] copying controller/client.py -> /home/aleksi/turtlebot3_ws/build/controller/build/lib/controller
+[0.770s] running install
+[0.770s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.770s]   warnings.warn(
+[0.770s] running install_lib
+[0.771s] copying /home/aleksi/turtlebot3_ws/build/controller/build/lib/controller/server.py -> /home/aleksi/turtlebot3_ws/install/controller/lib/python3.10/site-packages/controller
+[0.771s] copying /home/aleksi/turtlebot3_ws/build/controller/build/lib/controller/client.py -> /home/aleksi/turtlebot3_ws/install/controller/lib/python3.10/site-packages/controller
+[0.772s] byte-compiling /home/aleksi/turtlebot3_ws/install/controller/lib/python3.10/site-packages/controller/server.py to server.cpython-310.pyc
+[0.773s] byte-compiling /home/aleksi/turtlebot3_ws/install/controller/lib/python3.10/site-packages/controller/client.py to client.cpython-310.pyc
+[0.773s] running install_data
+[0.774s] copying package.xml -> /home/aleksi/turtlebot3_ws/install/controller/share/controller
+[0.774s] running install_egg_info
+[0.775s] removing '/home/aleksi/turtlebot3_ws/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.775s] Copying ../../build/controller/controller.egg-info to /home/aleksi/turtlebot3_ws/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info
+[0.776s] running install_scripts
+[0.791s] Installing cli script to /home/aleksi/turtlebot3_ws/install/controller/lib/controller
+[0.791s] Installing ser script to /home/aleksi/turtlebot3_ws/install/controller/lib/controller
+[0.791s] writing list of installed files to '/home/aleksi/turtlebot3_ws/build/controller/install.log'
+[0.808s] Invoked command in '/home/aleksi/turtlebot3_ws/src/controller' returned '0': AMENT_PREFIX_PATH=/home/aleksi/turtlebot3_ws/install/control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aleksi/turtlebot3_ws/install/control_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/aleksi/turtlebot3_ws/install/control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aleksi/turtlebot3_ws/build/controller/prefix_override:/home/aleksi/turtlebot3_ws/install/controller/lib/python3.10/site-packages:/home/aleksi/turtlebot3_ws/install/control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /home/aleksi/turtlebot3_ws/build/controller/build install --record /home/aleksi/turtlebot3_ws/build/controller/install.log --single-version-externally-managed

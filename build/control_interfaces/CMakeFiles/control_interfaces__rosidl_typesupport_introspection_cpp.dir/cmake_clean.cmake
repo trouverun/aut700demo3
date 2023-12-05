@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_interfaces/action/detail/follow_path__type_support.cpp.o"
+  "CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_interfaces/action/detail/follow_path__type_support.cpp.o.d"
+  "CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_interfaces/srv/detail/set_pose__type_support.cpp.o"
+  "CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_interfaces/srv/detail/set_pose__type_support.cpp.o.d"
+  "CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_interfaces/srv/detail/set_position__type_support.cpp.o"
+  "CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_interfaces/srv/detail/set_position__type_support.cpp.o.d"
+  "libcontrol_interfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "libcontrol_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/control_interfaces/action/detail/follow_path__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/control_interfaces/action/detail/follow_path__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/control_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/control_interfaces/srv/detail/set_pose__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/control_interfaces/srv/detail/set_position__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/control_interfaces/srv/detail/set_position__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

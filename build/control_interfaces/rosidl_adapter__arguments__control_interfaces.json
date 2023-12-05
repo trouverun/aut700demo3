@@ -1,0 +1,8 @@
+{
+  "package_name": "control_interfaces",
+  "non_idl_tuples": [
+    "/home/aleksi/turtlebot3_ws/src/control_interfaces:srv/SetPosition.srv",
+    "/home/aleksi/turtlebot3_ws/src/control_interfaces:srv/SetPose.srv",
+    "/home/aleksi/turtlebot3_ws/src/control_interfaces:action/FollowPath.action"
+  ]
+}

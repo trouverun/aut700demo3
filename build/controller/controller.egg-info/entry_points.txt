@@ -1,0 +1,4 @@
+[console_scripts]
+cli = controller.client:main
+ser = controller.server:main
+

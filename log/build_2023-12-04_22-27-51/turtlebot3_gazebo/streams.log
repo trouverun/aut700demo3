@@ -1,0 +1,36 @@
+[0.046s] Invoking command in '/home/aleksi/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aleksi/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aleksi/turtlebot3_ws/install/turtlebot3_gazebo
+[1.166s] -- The C compiler identification is GNU 11.4.0
+[1.726s] -- The CXX compiler identification is GNU 11.4.0
+[1.834s] -- Detecting C compiler ABI info
+[1.962s] -- Detecting C compiler ABI info - done
+[1.969s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.972s] -- Detecting C compile features
+[1.977s] -- Detecting C compile features - done
+[1.998s] -- Detecting CXX compiler ABI info
+[2.095s] -- Detecting CXX compiler ABI info - done
+[2.108s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.108s] -- Detecting CXX compile features
+[2.109s] -- Detecting CXX compile features - done
+[2.160s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.388s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.530s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.778s] [31mCMake Error at CMakeLists.txt:23 (find_package):
+[2.778s]   By not providing "Findgazebo.cmake" in CMAKE_MODULE_PATH this project has
+[2.778s]   asked CMake to find a package configuration file provided by "gazebo", but
+[2.778s]   CMake did not find one.
+[2.778s] 
+[2.778s]   Could not find a package configuration file provided by "gazebo" with any
+[2.778s]   of the following names:
+[2.778s] 
+[2.778s]     gazeboConfig.cmake
+[2.778s]     gazebo-config.cmake
+[2.779s] 
+[2.779s]   Add the installation prefix of "gazebo" to CMAKE_PREFIX_PATH or set
+[2.779s]   "gazebo_DIR" to a directory containing one of the above files.  If "gazebo"
+[2.779s]   provides a separate development package or SDK, be sure it has been
+[2.779s]   installed.
+[2.779s] 
+[2.779s] [0m
+[2.779s] -- Configuring incomplete, errors occurred!
+[2.779s] See also "/home/aleksi/turtlebot3_ws/build/turtlebot3_gazebo/CMakeFiles/CMakeOutput.log".
+[2.785s] Invoked command in '/home/aleksi/turtlebot3_ws/build/turtlebot3_gazebo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aleksi/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aleksi/turtlebot3_ws/install/turtlebot3_gazebo

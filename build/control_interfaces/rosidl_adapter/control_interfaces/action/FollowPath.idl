@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from control_interfaces/action/FollowPath.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseArray.idl"
+#include "std_msgs/msg/Bool.idl"
+
+module control_interfaces {
+  module action {
+    struct FollowPath_Goal {
+      geometry_msgs::msg::PoseArray waypoints;
+    };
+    struct FollowPath_Result {
+      std_msgs::msg::Bool success;
+    };
+    struct FollowPath_Feedback {
+      float progress;
+    };
+  };
+};
